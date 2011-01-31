@@ -1,0 +1,23 @@
+package de.sones.gwt.client.toolslets;
+
+import com.google.gwt.user.client.ui.HTML;
+
+import de.sones.gwt.client.Toolslet;
+
+public class VertexTypesToolslet extends Toolslet {
+
+	public VertexTypesToolslet() {
+		super("Vertex types", "Vertex.png");
+	}
+	
+	@Override
+	protected void onLoad() {
+		
+		//Do nothing, so show a blank Window -- should be extended with this Toolslets code
+		mainCanvas.addChild(new HTML("Hello world"));
+	}
+
+	
+	
+	
+}

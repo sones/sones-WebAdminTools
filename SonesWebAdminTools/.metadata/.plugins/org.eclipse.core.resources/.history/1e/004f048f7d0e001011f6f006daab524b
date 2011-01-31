@@ -1,0 +1,49 @@
+package de.sones.gwt.client.toolslets;
+
+import com.smartgwt.client.types.Side;
+import com.smartgwt.client.widgets.Canvas;
+import com.smartgwt.client.widgets.tab.Tab;
+import com.smartgwt.client.widgets.tab.TabSet;
+
+import de.sones.gwt.client.Toolslet;
+
+public class VertexTypesToolslet extends Toolslet {
+
+	public VertexTypesToolslet() {
+		super("Vertex types", "Vertex.png");
+	}
+	
+	@Override
+	protected void onLoad() {
+		
+		//Do nothing, so show a blank Window -- should be extended with this Toolslets code
+		
+		//Tabs for Structure, Data, Query, Search, Import/Export
+		TabSet tabSet  = new TabSet();
+		tabSet.setTabBarPosition(Side.TOP);
+		tabSet.setWidth100();
+		tabSet.setHeight100();
+		
+		Tab structureTab  = new Tab("Structure");
+		structureTab.setPane(new Canvas());
+		
+		Tab dataTab = new Tab("Data");
+		dataTab.setPane(new Canvas());
+		
+		Tab qryTab = new Tab("Query");
+		qryTab.setPane(new Canvas());
+		
+		Tab searchTab = new Tab("Search");
+		searchTab.setPane(new Canvas());
+		
+		Tab ioTab = new Tab("Import/Export");
+		ioTab.setPane(new Canvas());
+		
+		
+		
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="de.sones.gwt.client.AdminToolsletContainer.DragLabel"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.types.DragAppearance"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.types.Alignment"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Grid"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.DockLayoutPanel"/>
+<fullyQualifiedTypeName name="com.google.gwt.dom.client.Style.Unit"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.HTML"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.layout.HLayout"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.layout.VLayout"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.Label"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.toolbar.ToolStrip"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.menu.Menu"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.MenuItem"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.menu.MenuItem"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.toolbar.ToolStripMenuButton"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.Canvas"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.events.ClickHandler"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.javascript.host.Window"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.Window"/>
+<fullyQualifiedTypeName name="com.smartgwt.client.widgets.Window"/>
+<fullyQualifiedTypeName name="de.sones.gwt.client.Shortcut"/>
+</qualifiedTypeNameHistroy>
