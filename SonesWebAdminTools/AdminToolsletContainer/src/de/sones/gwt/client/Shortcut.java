@@ -60,24 +60,5 @@ public class Shortcut extends Label {
 		
 		this.setLeft(posX);
 		this.setTop(posY);
-		
-		/*
-		this.addClickHandler(new ClickHandler() {
-			
-			@Override
-			public void onClick(ClickEvent event) {
-				
-				Window w = new Window();
-				w.setWidth("60%");
-				w.setHeight("80%");
-				w.setTitle("Example Window");
-				w.setShowModalMask(true);
-				w.centerInPage();
-				w.setShowMinimizeButton(false);
-				w.setIsModal(true);
-				w.show();				
-			}
-		});
-		*/
 	}
 }

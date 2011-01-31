@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
-	<classpathentry kind="lib" path="smartgwt.jar"/>
-	<classpathentry kind="lib" path="smartgwt-skins.jar"/>
+	<classpathentry kind="lib" path="Y:/Eclipse/SonesWebAdminTools@GitHub/local/SonesWebAdminTools/lib/smartgwt.jar"/>
+	<classpathentry kind="lib" path="Y:/Eclipse/SonesWebAdminTools@GitHub/local/SonesWebAdminTools/lib/smartgwt-skins.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

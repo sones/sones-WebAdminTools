@@ -23,7 +23,6 @@ import java.util.ArrayList;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.RootPanel;
-import com.smartgwt.client.types.DragAppearance;
 import com.smartgwt.client.util.Page;
 import com.smartgwt.client.widgets.Canvas;
 import com.smartgwt.client.widgets.Label;
@@ -31,7 +30,6 @@ import com.smartgwt.client.widgets.Window;
 import com.smartgwt.client.widgets.layout.HLayout;
 import com.smartgwt.client.widgets.layout.VLayout;
 import com.smartgwt.client.widgets.menu.Menu;
-import com.smartgwt.client.widgets.menu.MenuItem;
 import com.smartgwt.client.widgets.toolbar.ToolStrip;
 import com.smartgwt.client.widgets.toolbar.ToolStripMenuButton;
 
@@ -117,21 +115,7 @@ public class AdminToolsletContainer implements EntryPoint {
 			 
 			 count_x++;
 		 }
-		
-		/*
-		Shortcut vertexTypesShortcut = new Shortcut("Vertex.png","Vertex types",50,50);
-		canvas.addChild(vertexTypesShortcut);
-		
-		Shortcut userManagementShortcut = new Shortcut("User.png","User management", 200, 50);
-		canvas.addChild(userManagementShortcut);
-		
-		Shortcut cfgShortcut = new Shortcut("Configuration.png","Configuration",350, 50);
-		canvas.addChild(cfgShortcut);
-		
-		Shortcut perfShortcut = new Shortcut("Performance.png", "Performance monitor",500,50);
-		canvas.addChild(perfShortcut);
-		*/
-		
+		 
 		//The footer
 		ToolStrip footer = new ToolStrip();
 		footer.setWidth100();
@@ -183,24 +167,6 @@ public class AdminToolsletContainer implements EntryPoint {
 			 menu.addItem(toolslet.getMenuItem());
 		 }
 		  
-		 
-		 
-		 
-		 /*
-		 MenuItem vertexTypeItem = new MenuItem("Vertex types");
-		 vertexTypeItem.setIcon("Vertex.png");
-		 
-		 MenuItem userManagementItem = new MenuItem("User management");
-		 userManagementItem.setIcon("User.png");
-		 
-		 MenuItem cfgMenuItem = new MenuItem("Configuration");
-		 cfgMenuItem.setIcon("Configuration.png");
-		 
-		 MenuItem perfMenuItem = new MenuItem("Performance monitor");
-		 perfMenuItem.setIcon("Performance.png");
-		 
-		 menu.setItems(vertexTypeItem, userManagementItem, cfgMenuItem, perfMenuItem);
-		 */
 		 
 		 ToolStripMenuButton button = new ToolStripMenuButton("sones", menu);
 		 
